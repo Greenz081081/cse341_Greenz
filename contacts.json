@@ -1,0 +1,25 @@
+{
+    "contact": {
+        "firstName": "Esther",
+        "lastName": "Nathaniel",
+        "email": "Esthernath@gmail.com",
+        "favoriteColor": "Blue",
+        "birthDay": "2 April 1998"
+    },
+
+    "contact2": {
+        "firstName": "Daniel",
+        "lastName": "Robert",
+        "Email": "Danielrobert@gmail.com",
+        "favoriteColor": "Green",
+        "birthday": "4 may 1996"
+    },
+
+    "contact3": {
+        "firstName": "Joe",
+        "lastName": "George",
+        "email": "Joegeorge@gmail.com",
+        "favoriteColor": "Yellow",
+        "birthDay": "21 June 1994"
+    }
+}
