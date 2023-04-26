@@ -1,16 +1,16 @@
-GET http://localhost:3000 HTTP/1.1
+GET http://localhost:8080 HTTP/1.1
 
 ###
 GET http://localhost:8080/contacts HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/6443d2cbd5164634b79f40d3 HTTP/1.1
+GET http://localhost:8080/contacts/6448eb2329aa4aaeaf5936f1 HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/64454742fdf979032a245f21 HTTP/1.1
+GET http://localhost:8080/contacts/6448eb7529aa4aaeaf5a87ed HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts/64454865fdf979032a245f22 HTTP/1.1
+GET http://localhost:8080/contacts/6448eb8c29aa4aaeaf5ae6f0 HTTP/1.1
 
 ###
 GET https://cse341-greenz.onrender.com
