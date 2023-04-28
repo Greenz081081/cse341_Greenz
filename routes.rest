@@ -23,10 +23,10 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-"firstName":"Ashley", 
-"lastName":"Weaver", 
-"email":"aWeaver@test.com", 
-"favoriteColor":"Brown", 
+"firstName":"Nathan", 
+"lastName":"Wright", 
+"email":"WrightN@gmail.com", 
+"favoriteColor":"Peach", 
 "birthday":"06/19/2000"
 }
 
@@ -35,9 +35,9 @@ PUT http://localhost:8080/contacts/644a47f920bbb37664b47a3c HTTP/1.1
 content-type: application/json
 
 {
-"firstName":"Sarah", 
-"lastName":"Birch", 
-"email":"sarahB@gmail.com", 
+"firstName":"Grace", 
+"lastName":"Bill", 
+"email":"GraceB@gmail.com", 
 "favoriteColor":"Yellow", 
 "birthday":"06/12/20"
 }
