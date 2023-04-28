@@ -14,3 +14,33 @@ GET http://localhost:8080/contacts/6448eb8c29aa4aaeaf5ae6f0 HTTP/1.1
 
 ###
 GET https://cse341-greenz.onrender.com
+
+###
+GET https://cse341-greenz.onrender.com
+
+### POST contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Ashley", 
+"lastName":"Weaver", 
+"email":"aWeaver@test.com", 
+"favoriteColor":"Brown", 
+"birthday":"06/19/2000"
+}
+
+### PUT contact
+PUT http://localhost:8080/contacts/644a47f920bbb37664b47a3c HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Sarah", 
+"lastName":"Birch", 
+"email":"sarahB@gmail.com", 
+"favoriteColor":"Yellow", 
+"birthday":"06/12/20"
+}
+
+### DELETE contact
+DELETE http://localhost:8080/contacts/644b5b1ac9108f89f7e2b3c4 HTTP/1.1 
