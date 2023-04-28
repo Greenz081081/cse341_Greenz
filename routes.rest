@@ -1,7 +1,7 @@
 GET http://localhost:8080 HTTP/1.1
 
 ###
-GET http://localhost:8080/contacts HTTP/1.1
+GET http://localhost:3000/contacts HTTP/1.1
 
 ###
 GET http://localhost:8080/contacts/6448eb2329aa4aaeaf5936f1 HTTP/1.1
@@ -19,7 +19,7 @@ GET https://cse341-greenz.onrender.com
 GET https://cse341-greenz.onrender.com
 
 ### POST contact
-POST http://localhost:8080/contacts HTTP/1.1 
+POST http://localhost:3000/contacts HTTP/1.1 
 content-type: application/json
 
 {
@@ -31,7 +31,7 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT http://localhost:8080/contacts/644a47f920bbb37664b47a3c HTTP/1.1 
+PUT http://localhost:3000/contacts/644a47f920bbb37664b47a3c HTTP/1.1 
 content-type: application/json
 
 {
@@ -43,4 +43,4 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/644b5b1ac9108f89f7e2b3c4 HTTP/1.1 
+DELETE http://localhost:3000/contacts/644b5b1ac9108f89f7e2b3c4 HTTP/1.1 
