@@ -2,8 +2,11 @@
 const express = require('express');
 // eslint-disable-next-line semi
 const router = express.Router();
+const swaggerUi = require('swagger-ui-express')
+const swaggerFile = require('./swagger-output.json')
 
 // eslint-disable-next-line semi
 router.use('/contacts', require('./contacts'));
+router.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerFile))
 
 module.exports = router

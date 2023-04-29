@@ -1,6 +1,8 @@
 const express = require('express')
 const parser = require('body-parser')
 const mongodb = require('./db/connect')
+const swaggerUi = require('swagger-ui-express')
+const swaggerFile = require('./swagger-output.json')
 
 const app = express()
 const port = process.env.PORT || 8080
@@ -13,6 +15,14 @@ app.use(parser.json())
     next()
   })
   .use('/', require('./routes'))
+const options = {
+  explorer: true,
+  chrome: true,
+  swaggerOptions: {
+    validatorUrl: null
+  }
+}
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerFile, options))
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err)
