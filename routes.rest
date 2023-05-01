@@ -46,4 +46,4 @@ content-type: application/json
 DELETE http://localhost:8080/contacts/644b82f1ef32b092ef6fe8a2 HTTP/1.1 
 
 ###
-GET HTTP://localhost:8080/doc 
+GET http://localhost:8080/api-docs
